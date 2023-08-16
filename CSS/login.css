@@ -1,0 +1,23 @@
+body {
+    background-image: url(../HTML/imagenes/fondo_login.jpg);
+	
+    	
+background-size: cover;
+}
+#tumami {
+    
+    background: -webkit-linear-gradient(90deg, #5a5ab9 10%, #938181 90%);
+background: -moz-linear-gradient(90deg, #5a5ab9 10%, #938181 90%);
+background: -ms-linear-gradient(90deg, #5a5ab9 10%, #938181 90%);
+background: -o-linear-gradient(90deg, #5a5ab9 10%, #938181 90%);
+background: linear-gradient(90deg, #5a5ab9 10%, #938181 90%);
+
+
+}
+#usuario2 {
+    color: rgb(0, 0, 0);
+}
+
+#remember {
+    color: azure;
+}
