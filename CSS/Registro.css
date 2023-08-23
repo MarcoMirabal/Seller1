@@ -16,3 +16,8 @@ background-size: cover;
 #remember {
     color: azure;
 }
+#registrate {
+
+    background-image: linear-gradient(to right,#cccccc, #5a5ab9);
+    
+}
