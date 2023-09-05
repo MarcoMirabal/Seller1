@@ -1,0 +1,11 @@
+.titulo{
+    width: 100%;
+    font-weight: bold;
+    margin: 30px;
+    font-size: 25px;
+}
+.productos{
+    width: 100;
+    background-color: gray;
+    
+}
