@@ -51,12 +51,12 @@ body{
 .menu .navbar ul li a {
     font-size: 18px;
     padding: 20px;
-    color: #ffffff;
+    color: #ff8bec;
     display: block;
 }
 
 .menu .navbar ul li a:hover{
-    color: #707093;
+    color: #ffffff;
 }
 
 #menu {
