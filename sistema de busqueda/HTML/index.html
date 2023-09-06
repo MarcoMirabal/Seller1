@@ -1,4 +1,7 @@
 
+<?php
+include 'index.php';
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -15,11 +18,19 @@
     <header>
         <div class="back">
             <div class="menu container">
-                <a href="https://www.google.com" ><img src="../Imagenes/logo.png" class="logo"></a>
+                <a href="#" ><img src="../Imagenes/logo.png" class="logo"></a>
                 <input type="checkbox" id="menu"/>
                 <label for="menu">
                     <img src="../Imagenes/menu.png" class="menu-icono" alt="">
+                    
                 </label>
+                <section>
+                    <form autocomplete="off">
+                        <div>
+                            <input type="text" name="q" placeholder="Buscar...">
+                        </div>
+                    </form>
+                </section>
                 <nav class="navbar">
                     <ul>
                         <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">inicio</a></li>
@@ -33,13 +44,7 @@
 
     </header>
 
-    <section>
-        <form autocomplete="off">
-            <div>
-                <input type="text" name="q" placeholder="Buscar...">
-            </div>
-        </form>
-    </section>
+    
 
     <div class="titulo">
         Productos más destacados:
