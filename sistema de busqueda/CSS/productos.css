@@ -33,7 +33,7 @@
     background-image: linear-gradient(rgba(251, 180, 253, 0.473),rgba(106, 0, 110, 0.479));
     border-radius: 15px;
 }
-.caja p {
+.caja li {
     font-size: 20px;
     color: white;
     text-align: center;
