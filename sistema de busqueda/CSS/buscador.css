@@ -2,10 +2,11 @@ input {
 	font:inherit;
 }
 section {
-	min-height: 10vh ;
+	min-height: 2vh ;
 	display: flex;
+	justify-content: center;
 	align-items: center;
-    width: 100%;
+    width: auto;
 }
 form {
 	margin: 20px;
@@ -13,7 +14,6 @@ form {
 form > div {
 	display: flex;
 	background:#ffffffb9;
-	padding: 9px 22px 9px 26px;
 	border-radius: 30px;
 	border:2px solid #6d006475;
 	box-shadow: rgba(255, 255, 255, 0) -8px -8px 15px,
