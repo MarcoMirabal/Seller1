@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+.logo{
+    color: aqua;
+}
+
+header{
+    background-image: url(../img/fondo.png); 
+    color: #FFFFFF;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+body{
+    font-family: 'Lexend', sans-serif;
+    background-color: #080202;
+
+}
+
+
+.imagen{
+    width: 40px;
+}
+
+.img-violet{
+    height: 100px;
+    width: 1360px;
+}
+
+.h1{
+    border-style: double;
+    border-width: 100%;
+    border-color:rgba(91, 4, 161, 0.692);
+}
+
+.container{
+    max-width: 1200px;
+    margin: 160% auto;
+
+}
+
+.menu-1{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    color: #fdfdfd;
+    flex-direction: row-reverse;
+
+}
+
+.Tagline {
+    /* Center text horizontally and vertically */
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    height: 100%; /* Ensure the container takes up the full height */
+    text-align: center; /* Center text horizontally */
+    justify-content: center;
+}
+
+.Futuroimg {
+    display: flex;
+    justify-content: space-around;
+}
