@@ -54,12 +54,12 @@ body{
 .menu .navbar ul li a {
     font-size: 18px;
     padding: 20px;
-    color: #ff8bec;
+    color: #ebcee6;
     display: block;
 }
 
 .menu .navbar ul li a:hover{
-    color: #ffffff;
+    color: #e69cd6;
 }
 
 #menu {
@@ -138,6 +138,22 @@ header {
 
 */
 
+.texto-flotante{
+    color: azure;
+    position: fixed; /* Fija el texto en la ventana del navegador */
+    top: 15%; /* Ajusta la posición vertical */
+    left: 5%; /* Ajusta la posición horizontal */
+    background-color: rgba(20, 19, 19, 0.7); /* Color de fondo con transparencia */
+    padding: 10px;
+   /* border: 1px solid #ccc;  Borde opcional */
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra opcional */
+}
+
+.texto-flotante {
+    font-size: 16px;
+    font-weight: bold;
+}
 
 
 
