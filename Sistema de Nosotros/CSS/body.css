@@ -16,11 +16,8 @@ body{
     background-repeat: no-repeat;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.texto-flotante{
+.texto-flotante h1{
     color: azure;
-    position: fixed; /* Fija el texto en la ventana del navegador */
-    top: 15%; /* Ajusta la posición vertical */
-    left: 5%; /* Ajusta la posición horizontal */
     background-color: rgba(20, 19, 19, 0.7); /* Color de fondo con transparencia */
     padding: 10px;
    /* border: 1px solid #ccc;  Borde opcional */
@@ -31,11 +28,25 @@ body{
 .texto-flotante {
     font-size: 16px;
     font-weight: bold;
+    display: flex;
+    align-items: center;
 }
 
-.chocalas img{
+.rectangulo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.chocalas {
 	width: 357px;
 	height: 237px;
-    
+    display: flex;
+    justify-content: flex-end;
 	
+}
+.chocalas img{
+    display: flex;
+    width: 357px;
+	height: 237px;
+    
 }
