@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+} 
+body{
+    background-image: url(../Imagenes/fondo_nosotros.png);
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 0px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.texto-flotante{
+    color: azure;
+    position: fixed; /* Fija el texto en la ventana del navegador */
+    top: 15%; /* Ajusta la posición vertical */
+    left: 5%; /* Ajusta la posición horizontal */
+    background-color: rgba(20, 19, 19, 0.7); /* Color de fondo con transparencia */
+    padding: 10px;
+   /* border: 1px solid #ccc;  Borde opcional */
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra opcional */
+}
+
+.texto-flotante {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.chocalas img{
+	width: 357px;
+	height: 237px;
+    
+	
+}
