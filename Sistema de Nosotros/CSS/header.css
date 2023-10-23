@@ -28,6 +28,7 @@
     text-transform: uppercase;
     width: 30px;
     height: 30px;
+    
 
 }
 .menu .navbar ul li {
@@ -96,6 +97,13 @@
 
 }
 
+
+.buscador input{
+
+    width: 300px;
+    height: 25px;
+    background-color: rgb(rgba(248, 172, 232, 0.171));
+}
 /*body{
     background-image: url(../Imagenes/Image\ Pasted\ 2023-20-06\ at\ 18.46.23.png);
     background-size: cover;

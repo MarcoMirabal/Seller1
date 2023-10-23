@@ -15,6 +15,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-position-y: -900px;
 }
 .texto-flotante h1{
     color: azure;
@@ -26,10 +27,11 @@ body{
 }
 
 .texto-flotante {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     display: flex;
-    align-items: center;
+    align-items: end;
+    margin-top: 50px;
 }
 
 .rectangulo{
@@ -46,8 +48,8 @@ body{
 }
 .chocalas img{
     display: flex;
-    width: 357px;
-	height: 237px;
+    width: 535px;  /*valor original :357px */
+	height: 355px;    /*valor original :237px */
     
 }
 
@@ -62,13 +64,13 @@ body{
         font-size: 25px;
         line-height: 1.5;
         text-align: center;
-        
+        margin-top: 120px;
     }
 
-    .subtitulo{
-        display: flex;
-        justify-content: center;
-    }
+.subtitulo{
+    display: flex;
+    justify-content: center;
+ }
 
 .subtitulo h2{
     font-size: 50px;
@@ -79,3 +81,5 @@ body{
     text-align: center;
     width: auto;
 }
+
+
