@@ -50,3 +50,32 @@ body{
 	height: 237px;
     
 }
+
+
+.texto p{
+        width: auto;
+        height: 196px;
+        max-width: 991px ;
+        color: #FFFFFF;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 1.5;
+        text-align: center;
+        
+    }
+
+    .subtitulo{
+        display: flex;
+        justify-content: center;
+    }
+
+.subtitulo h2{
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    text-align: center;
+    width: auto;
+}
