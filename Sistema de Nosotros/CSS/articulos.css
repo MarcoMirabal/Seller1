@@ -29,9 +29,10 @@
 	height: 169px;
 	padding: 8px 8px 8px 8px;
 	opacity: 100%;
-	background: #B38DF7;
+	background: #8254d3;
 	border-radius: 16px 16px 16px 16px;
 }
+
 
 
 .participantes input{
@@ -55,10 +56,46 @@
 #rol{
 	width: 111px;
 	height: 23px;
-	color: #FFFFFF;
+	color: #bebebe;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	font-size: 15px;
 	line-height: 1.4;
 	text-align: left;
+}
+
+.fin{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	
+	
+}
+.fin2{
+	display: flex;
+	justify-content: center;
+	
+	padding-bottom: 20px;
+}
+.fin p{
+	width: auto;
+	height: auto;
+	color: #AAAAAA;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.6;
+	text-align: center;
+	
+}
+.fin2 p{
+	width: auto;
+	height: auto;
+	color: #AAAAAA;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.6;
+	text-align: center;
+	
 }
