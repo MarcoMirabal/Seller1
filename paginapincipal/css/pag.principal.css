@@ -6,7 +6,7 @@
     list-style: none;
 } 
 body{
-    background-image: url(../Imagenes/Image\ Pasted\ 2023-20-06\ at\ 18.46.23.png);
+    background-image: url(../Img/9b3f39aecef4e0e567d205188ec959d1_x16_drawing.png);
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -14,12 +14,114 @@ body{
     background-repeat: no-repeat;
     background-attachment: cover;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text{
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    margin-top: 95px;
+}
+
+.text1{
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    margin-top: 95px;
+}
+
+.ShopNow{
+    color: #dadae7;
+    width: 130px;
+    height: 40px;
+    margin-top: 100px;
+    background-color:#512DA8;
+    border: 0cap;
+}
+
+
+
+.foto1{
+    width: 225px;
+    height: 170px;
+    margin-top: 190px;
+    margin-right: 50px;
+}
+
+.foto2{
+    width: 225px;
+    height: 170px;
+    margin-top: 190px;
+}
+
+.foto3{
+    width: 225px;
+    height: 170px;
+    margin-top: 190px;
+    margin-left: 50px;
+}
+
+.img1{
+    border-radius: 15px;
+    margin: 0 auto;
+    display: block;
+    width: 600px;
+    margin-top: 130px;
+}
+
+
+.img{
+    border-radius: 15px;
+    margin-right: 100px;
+    display: block;
+    width: 531px;
 
 }
+
+
+.contenedor {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    margin: 80px;
+}
+
+
+.text5{
+    color: aliceblue;
+}
+
+.text8{
+    color: #dadae7
+}
+
+
+
 .container {
     max-width: 1100px;
     margin: 0 auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .back{
     height: 5vh;
     padding: 32px 0;
@@ -43,6 +145,7 @@ body{
     text-transform: uppercase;
     width: 30px;
     height: 30px;
+   
 
 }
 .menu .navbar ul li {
@@ -53,12 +156,12 @@ body{
 .menu .navbar ul li a {
     font-size: 18px;
     padding: 20px;
-    color: #ff8bec;
+    color: #ebcee6;
     display: block;
 }
 
 .menu .navbar ul li a:hover{
-    color: #ffffff;
+    color: #e69cd6;
 }
 
 #menu {
@@ -111,6 +214,13 @@ body{
 
 }
 
+
+.buscador input{
+
+    width: 300px;
+    height: 25px;
+    background-color: rgb(rgba(248, 172, 232, 0.171));
+}
 /*body{
     background-image: url(../Imagenes/Image\ Pasted\ 2023-20-06\ at\ 18.46.23.png);
     background-size: cover;
@@ -119,7 +229,7 @@ body{
     -o-background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
+   
 }
 
 header {
@@ -136,7 +246,3 @@ header {
 (esto es código que guardé por las dudas)
 
 */
-
-
-
-
