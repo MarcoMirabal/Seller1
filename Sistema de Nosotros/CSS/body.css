@@ -15,12 +15,10 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-position-y: -900px;
 }
-.texto-flotante{
+.texto-flotante h1{
     color: azure;
-    position: fixed; /* Fija el texto en la ventana del navegador */
-    top: 15%; /* Ajusta la posición vertical */
-    left: 5%; /* Ajusta la posición horizontal */
     background-color: rgba(20, 19, 19, 0.7); /* Color de fondo con transparencia */
     padding: 10px;
    /* border: 1px solid #ccc;  Borde opcional */
@@ -29,13 +27,59 @@ body{
 }
 
 .texto-flotante {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
+    display: flex;
+    align-items: end;
+    margin-top: 50px;
 }
 
-.chocalas img{
+.rectangulo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.chocalas {
 	width: 357px;
 	height: 237px;
-    
+    display: flex;
+    justify-content: flex-end;
 	
 }
+.chocalas img{
+    display: flex;
+    width: 535px;  /*valor original :357px */
+	height: 355px;    /*valor original :237px */
+    
+}
+
+
+.texto p{
+        width: auto;
+        height: 196px;
+        max-width: 991px ;
+        color: #FFFFFF;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 1.5;
+        text-align: center;
+        margin-top: 120px;
+    }
+
+.subtitulo{
+    display: flex;
+    justify-content: center;
+ }
+
+.subtitulo h2{
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    text-align: center;
+    width: auto;
+}
+
+
