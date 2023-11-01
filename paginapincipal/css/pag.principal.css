@@ -205,6 +205,7 @@ body{
         align-items: center; /* Centra verticalmente */
         margin: -80px;
         display: flex;   
+        flex-wrap: wrap;
 }
 .img34{
     border-radius: 15px;
