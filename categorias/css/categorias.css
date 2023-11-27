@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lexend', sans-serif;
 }
 
 
@@ -14,18 +15,13 @@ body{
     max-width: 1200px;
     font-family: 'Lato';
     color: #333;
-    background-image: url(fondo.png);
+    background-image: url(../img/b2f3083c5d4f6d61e513f6c953a5558b_x16_drawing.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     font-weight: 600;
-
-
-
-
 }
-
 
 .icon-cart {
     width: 40px;
@@ -152,12 +148,7 @@ img{
     }
 
 
-
-
 }
-
-
-
 
 .buscador input{
 
@@ -166,13 +157,6 @@ img{
     height: 25px;
     background-color: rgb(rgba(248, 172, 232, 0.171));
 }
-
-
-
-
-
-
-
 
 .container-items{
     margin: 50px auto;
@@ -226,89 +210,10 @@ img{
 }
 
 
+.titulo25{
+    color: #717186;
+    margin-top: 80px;
+    font-size: 35px;
 
-
-
-
-.text{
-    position: relative;
-    bottom: 350px;
-    left: 415px;
-    color: #ffffff;
-    font-size: xx-large;
-   
-}
-
-
-.title {
-    color: #ffffff;
-    font-size: xx-large;
-    position: relative;
-    left: 420px;
-    top: 50px;
-   
-}
-
-
-.titulo{
-    font-size: xxx-large;
-    position: relative;
-    left: 460px;
-    color: #000000;
-}
-
-
-.carta1 {
-    position: relative;
-    right: 79px;
-}
-
-
-.title2{
-    color: #ffffff;
-    font-size: xx-large;
-    position: relative;
-    left: 340px;
-    top: 20px;
-}
-
-
-.text2{
-    position: relative;
-    bottom: 129px;
-    left: 340px;
-    color: #ffffff;
-    font-size: xx-large;
-   
-}
-
-
-.title3 {
-    color: #ffffff;
-    font-size: xx-large;
-    position: relative;
-    left: 420px;
-    top: 50px;
-}
-
-
-.text3 {
-    position: relative;
-    bottom: 129px;
-    left: 340px;
-    color: #ffffff;
-    font-size: xx-large;
-}
-
-
-.carta2 {
-    position: relative;
-    right: 79px;
-}
-
-
-.carta3 {
-    position: relative;
-    right: 79px;
 }
 
