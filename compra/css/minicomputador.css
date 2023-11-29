@@ -1,0 +1,318 @@
+body{
+    margin: 0%;
+    background-image: url(../img/foto1.jpg);
+    background-size: cover;
+    /*background-color: antiquewhite*/
+    /*color: #ffffff; POR SI NO FUNCIONA O SE VE MAL LA FOTO DE FONDO USAR ESTO EN BLANCO NOMAS */
+  
+  }
+  
+  .img{
+    position: absolute;
+    top: 15%;
+    left: 6%;
+  }
+  .titulo{
+    position: absolute;
+    top: 15%;
+    left: 60%;
+    color: #ffffff;
+  }
+  
+  .clasificacion{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+  
+  
+  
+  
+  }
+  
+  .res{
+    position: absolute;
+    top: 21%; 
+    left: 67%;
+  
+  
+  
+  }
+  
+  
+  
+  .info{
+  position: absolute;
+  top: 40%;
+  left: 60%;
+  color: #ffffff;
+  }
+  .precio{
+    position: absolute;
+  top: 28%;
+  left: 60%;
+  color: #ffffff;
+  
+  }
+  .select{
+    position: absolute;
+    top: 28%;
+    left: 76%; 
+    border: none;
+    border-radius: 50px;
+    padding: 5px 20px;
+  
+  }
+  
+  .cuotas{
+    position: absolute;
+    color: gray;
+    top: 55%;
+    left: 60%
+  }
+  .boton{
+    position: absolute;
+    border: none;
+    border-radius: 7px;
+    background: none;
+    background-color: rgb(136, 47, 136);
+    color: aliceblue;
+    padding: 13px 45px;
+    cursor: pointer;
+    top: 60%;
+    left: 60%
+  }
+  .boton:hover{
+    background-color: #ffffff;
+    transition: 0.7s;
+    color: #eba1d8;
+  }
+    
+  .mini1{
+    position: absolute;
+    top: 75%;
+    left: 6%;
+   
+  
+  
+  }
+  
+  .mini2{
+    position: absolute;
+    top: 75%;
+    left: 19%;
+   
+  
+  
+  }
+  .mini3{
+    position: absolute;
+    top: 75%;
+    left: 33%;
+   
+  
+  
+  }
+  .mini4{
+    position: absolute;
+    top: 130%;
+    left: 4%;
+   
+  
+  
+  }
+  .mini5{
+    position: absolute;
+    top: 130%;
+    left: 40%;
+   
+  
+  
+  }
+  .mini6{
+    position: absolute;
+    top: 130%;
+    left: 75%;
+   
+  
+  
+  }
+  .division{
+    position: absolute;
+    top: 113%;
+    left: 40%;
+    font-family:"Optima" ;
+   
+  
+  
+  }
+  
+  .minit1{
+    position: absolute;
+    top: 130%;
+    left: 15%;
+    font-family:"Optima" ;
+   
+  
+  
+  }
+  
+  .minit2{
+    position: absolute;
+    top: 130%;
+    left: 51%;
+    font-family:"Optima" ;
+   
+  
+  
+  }
+  
+  .minit3{
+    position: absolute;
+    top: 130%;
+    left: 86%;
+    font-family:"Optima" ;
+   
+  
+  
+  }
+  
+  .clasificacion1{
+    position: absolute;
+    top: 133%;
+    left: 15%;
+  
+  
+  
+  
+  }
+  .clasificacion2{
+    position: absolute;
+    top: 133%;
+    left: 51%;
+  
+  
+  
+  
+  }
+  .clasificacion3{
+    position: absolute;
+    top: 133%;
+    left: 86%;
+  
+  
+  
+  
+  }
+  
+  .preciomini1{
+    position: absolute;
+    top: 137%;
+    left: 15%;
+    font-family: "Optima";
+  }
+  
+  .preciomini2{
+    position: absolute;
+    top: 137%;
+    left: 51%;
+    font-family: "Optima";
+  }
+  
+  .preciomini3{
+    position: absolute;
+    top: 137%;
+    left: 86%;
+    font-family: "Optima";
+  }
+  
+  .reseñasfin{
+    position: absolute;
+    top: 170%; 
+    left: 6%;
+  
+  
+  
+  }
+  
+  .usuario1{
+    position: absolute;
+    top: 185%;
+    left: 10%;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .usuario2{
+    position: absolute;
+    top: 205%;
+    left: 10%;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .fechausuario1{
+    position: absolute;
+    top: 188%;
+    left: 10%;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .fechausuario2{
+    position: absolute;
+    top: 208%;
+    left: 10%;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .calusuario1{
+    position: absolute;
+    top: 190%;
+    left: 10%;
+  
+  }
+  
+  
+  
+  
+  .calusuario2{
+    position: absolute;
+    top: 210%;
+    left: 10%;
+  }
+  
+  .comentario1{
+    position: absolute;
+    color: white;
+    top: 185%;
+    left: 40%
+  }
+  
+  .comentario2{
+    position: absolute;
+    color: white;
+    top: 205%;
+    left: 40%;
+  }
+  
+  .fotousuario{
+    position: absolute;
+    top: 185%;
+    left: 5%;
+  }
+  
+  .fotousuario2{
+    position: absolute;
+    top: 205%;
+    left: 5%;
+  }
+  
+  
+  
+  .footer{
+    position: absolute;
+    top: 230%;
+    left: 40%;
+    color: black;
+  
+    
+  
+  
+  }
