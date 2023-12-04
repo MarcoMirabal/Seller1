@@ -86,10 +86,11 @@ color: #ffffff;
   transition: 0.7s;
   color: #eba1d8;
 }
-  
+
+
 .mini1{
   position: absolute;
-  top: 75%;
+  top: 110%;
   left: 6%;
  
 
@@ -98,16 +99,16 @@ color: #ffffff;
 
 .mini2{
   position: absolute;
-  top: 75%;
-  left: 19%;
+  top: 110%;
+  left: 36%;
  
 
 
 }
 .mini3{
   position: absolute;
-  top: 75%;
-  left: 33%;
+  top: 110%;
+  left: 66%;
  
 
 

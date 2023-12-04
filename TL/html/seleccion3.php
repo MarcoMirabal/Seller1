@@ -1,0 +1,208 @@
+<!DOCTYPE html> 
+ <html lang="en"> 
+ <head> 
+     <meta charset="UTF-8"> 
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+     <link rel="stylesheet" href="../css/header.css"> 
+     <link rel="stylesheet" href="../css/textoprodu.css">
+ </head> 
+ <body class="body">
+    <div class="linea"></div>
+    <header>
+        <div class="back">
+          <div class="menu container">
+              <a href="#" ><img src="../../sistema de busqueda/Imagenes/logo.png" class="logo"></a>
+              <input type="checkbox" id="menu"/>
+              <label for="menu">
+                  <img src="../../sistema de busqueda/Imagenes/menu.png" class="menu-icono" alt="">
+                 
+              </label>
+              <section>
+                  <form autocomplete="off">
+                      <div class="buscador">
+                          <input type="text" name="q" placeholder="Buscar...">
+                      </div>
+                  </form>
+              </section>
+              <nav class="navbar">
+                  <ul>
+                    <div class="dropdown-content"> 
+                        <<li><a href="file:///C:/xampp/htdocs/Seller1/paginapincipal/html/paginaprincial.html">inicio</a></li>
+                        <li><a href="file:///C:/xampp/htdocs/Seller1/categorias/html/categorias.html">Categorías</a></li>
+                        <li><a href="file:///C:/xampp/htdocs/Seller1/Sistema%20de%20Nosotros/HTML/index.html">Nosotros</a></li>
+                    <div>
+                  </ul>
+              </nav>
+      </header>
+        <main>
+        <link rel="stylesheet" href="../css/textoprodu.css">
+      
+      <div class="productito">
+
+        <?php
+
+		$base = "bd seller";
+		$Conexion = mysqli_connect("localhost", "root", "", $base);
+
+		$cadena = "SELECT * FROM producto WHERE id = 1" ;
+
+		$consulta = mysqli_query($Conexion, $cadena);
+    while ($registro = mysqli_fetch_row($consulta)) {
+
+    echo ' <form>
+    <h3 class="clasificacion">
+      <input id="radio1" type="radio" name="estrellas" value="5"><!--base64
+      --><label for="radio1">★</label><!--
+      --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+      --><label for="radio2">★</label><!--
+      --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+      --><label for="radio3">★</label><!--
+      --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+      --><label for="radio4">★</label><!--
+      --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+      --><label for="radio5">★</label>
+    </h3>
+    </form>
+  <h2 class="select"><select class="form-select form-select-lg mb-3" aria-label="Large select example"></h2>
+      <option selected>Seleccionar Talle</option>
+      <option value="1">42</option>
+      <option value="2">43.5</option>
+      <option value="3">46</option>
+    </select>
+  <h4 class="res">127 Reseñas</h4>
+  <h5 class="info">'.$registro[6].'</br></h5>
+  <h1 class="precio">'.$registro[5].'</h1>
+  <h4 class="cuotas">Mismo precio en 3 cuotas de $59999,99</h4>
+  <a href="../forms/tarjeta.php"><button class="boton">Comprar</button></a>
+  <div class="img">
+ <img src="data:image/jpeg;base64,' . base64_encode( $registro[0]) .'" alt="" width="470px" height="380px">
+
+
+  <div class="mini1">
+  <img src="data:image/jpeg:;base64,' . base64_encode( $registro[1]) .'" alt="" width="110px" height="105px">
+</div>
+
+     <div class="mini2">
+       <img src="data:image/jpeg;base64,'. base64_encode( $registro[2]) .'" alt="" width="110px" height="105px">
+     </div>
+
+     <div class="mini3">
+       <img src="data:image/jpeg;base64,'.base64_encode($registro[3])  .'" alt="no funciono" width="110px" height="105px">
+     </div>
+  </div>';
+}
+
+	
+		?>
+
+
+
+
+</div>
+
+        
+        <h1 class="division">Productos Similares</h1>
+      </div>
+
+        <h4 class="minit1">Nike Air Force 1 Mid '07 LX</h4>
+        <h4 class="preciomini1">$147.999</h4>
+        <form>
+          <h4 class="clasificacion1">
+            <input id="radio1" type="radio" name="estrellas" value="5"><!--
+            --><label for="radio1">★</label><!--
+            --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+            --><label for="radio2">★</label><!--
+            --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+            --><label for="radio3">★</label><!--
+            --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+            --><label for="radio4">★</label><!--
+            --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+            --><label for="radio5">★</label>
+          </h4>
+          </form>
+        <div class="mini4">
+          <img src="../img/zapa.jpg.webp" alt="" width="130px" height="105px">
+        </div>
+        <h4 class="minit2">Nike Air Max Pulse</h4>
+        <h4 class="preciomini2">$147.499</h4>
+        <form>
+          <h4 class="clasificacion2">
+            <input id="radio1" type="radio" name="estrellas" value="5"><!--
+            --><label for="radio1">★</label><!--
+            --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+            --><label for="radio2">★</label><!--
+            --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+            --><label for="radio3">★</label><!--
+            --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+            --><label for="radio4">★</label><!--
+            --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+            --><label for="radio5">★</label>
+          </h4>
+          </form>
+        <div class="mini5">
+          <img src="../img/zapa2.jpg" alt="" width="130px" height="105px">
+        </div>
+        <h4 class="minit3">Nike Air Zoom Flight 95</h4>
+        <h4 class="preciomini3">$161.499</h4>
+        <form>
+          <h4 class="clasificacion3">
+            <input id="radio1" type="radio" name="estrellas" value="5"><!--
+            --><label for="radio1">★</label><!--
+            --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+            --><label for="radio2">★</label><!--
+            --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+            --><label for="radio3">★</label><!--
+            --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+            --><label for="radio4">★</label><!--
+            --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+            --><label for="radio5">★</label>
+          </h4>
+          </form>
+        <div class="mini6">
+          <img src="../img/zapa3.jpg" alt="" width="130px" height="105px">
+        </div>
+        <h1 class="reseñasfin">Reseñas</h1>
+
+        <h4 class="usuario1">Sebastian Battaglia</h4>
+        <h5 class="fechausuario1">1 de Febrero 2023</h5>
+        <h4 class="comentario1">Desde el momento en que abrí la caja, quedé impresionado por la calidad y el diseño impecable de estas zapatillas. La combinación de materiales premium, como el cuero de alta calidad y la suela duradera, no solo brinda un aspecto estilizado, sino que también asegura una durabilidad que justifica su reputación en el mundo del calzado deportivo.</h4>
+        <a href="#" ><img src="../img/usuario.jpg" alt="" width="50px" height="50px" class="fotousuario"></a>
+        <form>
+          <h4 class="calusuario1">
+            <input id="radio1" type="radio" name="estrellas" value="5"><!--
+            --><label for="radio1">★</label><!--
+            --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+            --><label for="radio2">★</label><!--
+            --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+            --><label for="radio3">★</label><!--
+            --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+            --><label for="radio4">★</label><!--
+            --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+            --><label for="radio5">★</label>
+          </h4>
+          </form>
+
+        <h4 class="usuario2">Juan Riquelme</h4>
+        <h5 class="fechausuario2">17 de Septiembre 2023</h5>
+        <h4 class="comentario2"> Las Air Jordan 1 Retro High OG no solo cumplen con las expectativas, sino que las superan. Su legado en la cultura sneaker y su atractivo atemporal hacen de este par una elección inteligente para cualquier amante del calzado que busque una experiencia única y auténtica.</h4>
+          <a href="#" ><img src="../img/usuario2.jpg" alt="" width="50px" height="50px" class="fotousuario2"></a>
+        <form>
+          <h4 class="calusuario2">
+            <input id="radio1" type="radio" name="estrellas" value="5"><!--
+            --><label for="radio1">★</label><!--
+            --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+            --><label for="radio2">★</label><!--
+            --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+            --><label for="radio3">★</label><!--
+            --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+            --><label for="radio4">★</label><!--
+            --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+            --><label for="radio5">★</label>
+          </h4>
+          </form>
+    </main>
+     <div class="footer"> 
+        <small>&copy; 2023 <b>Seller</b> - Todos los Derechos Reservados.</small>
+     </div> 
+ </body> 
+ </html>
