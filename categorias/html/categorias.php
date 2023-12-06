@@ -62,7 +62,7 @@
             <img src="../img/6a8832d29a911b320f9c68af86f8e134.jpg" alt="">
         </figure>
         <div class="info-product">
-            <button><a href="file:///C:/xampp/htdocs/Seller1/categorias/html/comida.html">Comida</a></button>
+            <button><a href="comida.php">Comida</a></button>
         </div>
     </div>
 
