@@ -41,10 +41,12 @@
 
         <?php
 
+        $id = $_GET['id'];
+
 		$base = "bd seller";
 		$Conexion = mysqli_connect("localhost", "root", "", $base);
 
-		$cadena = "SELECT * FROM producto WHERE id = 1" ;
+		$cadena = "SELECT * FROM producto WHERE id = ".$id;
 
 		$consulta = mysqli_query($Conexion, $cadena);
     while ($registro = mysqli_fetch_row($consulta)) {
@@ -69,8 +71,10 @@
       <option value="2">43.5</option>
       <option value="3">46</option>
     </select>
+  
   <h4 class="res">127 Reseñas</h4>
-  <h5 class="info">'.$registro[6].'</br></h5>
+  <h5 class="info">'.$registro[6].'</h5></br>
+  <h3 class="nombre">'.$registro[4].'</h3>
   <h1 class="precio">'.$registro[5].'</h1>
   <h4 class="cuotas">Mismo precio en 3 cuotas de $59999,99</h4>
   <a href="../forms/tarjeta.php"><button class="boton">Comprar</button></a>

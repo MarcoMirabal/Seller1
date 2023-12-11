@@ -46,39 +46,29 @@
     </center>
 </div>
 
-   <div class="container-items">
-    <div class = "item">
-        <figure>
-            <img src="../img/57a0b0cd3e5acab2b0ebb5b5e19f6a8b.jpg" alt="">
-        </figure>
-        <div class="info-product">
-            <button>comprar</button>
-        </div>
-    </div>
 
-
-    <div class = "item">
-        <figure>
-            <img src="../img/6a8832d29a911b320f9c68af86f8e134.jpg" alt="">
-        </figure>
-        <div class="info-product">
-            <button>comprar</button>
-        </div>
-    </div>
-
-
-    <div class = "item">
-        <figure>
-            <img src="../img/28ed5f1e94e8c34fffb82c414976be9d.jpg" alt="">
-        </figure>
-        <div class="info-product">
-            <button>comprar</button>
-        </div>
-        <div>
-            Mouse X
-        </div>
-    </div>  
-    </div>
+    <?php
+     
+     $base = "bd seller";
+     $Conexion = mysqli_connect("localhost", "root", "", $base);
+     
+     $cadena = "SELECT * FROM producto WHERE categorias = 'Comida'" ;
+     
+     $consulta = mysqli_query($Conexion, $cadena);
+     while ($registro = mysqli_fetch_row($consulta)) {
+     echo '<form class = "item" action="../../TL/html/seleccion3.php?id='.$registro[8].'" method="post">
+     <figure>
+         <img src="data:image/jpeg;base64,' . base64_encode( $registro[0]) .'" alt="">
+     </figure>
+     <div class="info-product">
+         <button>comprar</button>
+     </div>
+     </form>';
+     }
+     ?>
+         
+     
+         </div>
 
 
 </body>

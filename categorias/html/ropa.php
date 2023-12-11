@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda</title>
-    <link rel="stylesheet" href="../css/categorias.css"
+    <link rel="stylesheet" href="../css/categorias.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -47,34 +47,29 @@
 </div>
 
    <div class="container-items">
-    <div class = "item">
-        <figure>
-            <img src="../img/buso (1).jpg" alt="">
-        </figure>
-        <div class="info-product">
-            <button>comprar</button>
-        </div>
-    </div>
 
 
-    <div class = "item">
-        <figure>
-            <img src="../img/campera.jpg" alt="">
-        </figure>
-        <div class="info-product">
-            <button>comprar</button>
-        </div>
-    </div>
+   <?php
 
+$base = "bd seller";
+$Conexion = mysqli_connect("localhost", "root", "", $base);
 
-    <div class = "item">
-        <figure>
-            <img src="../img/buso (2).jpg" alt="">
-        </figure>
-        <div class="info-product">
-            <button>comprar</button>
-        </div>
-    </div>  
+$cadena = "SELECT * FROM producto WHERE categorias = 'Ropa'" ;
+
+$consulta = mysqli_query($Conexion, $cadena);
+while ($registro = mysqli_fetch_row($consulta)) {
+echo '<form class = "item" action="../../TL/html/seleccion3.php?id='.$registro[8].'" method="post">
+<figure>
+    <img src="data:image/jpeg;base64,' . base64_encode( $registro[0]) .'" alt="">
+</figure>
+<div class="info-product">
+    <button>comprar</button>
+</div>
+</form>';
+}
+?>
+    
+
     </div>
 
 

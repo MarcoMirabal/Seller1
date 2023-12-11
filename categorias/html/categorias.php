@@ -52,7 +52,7 @@
             <img src="../img/57a0b0cd3e5acab2b0ebb5b5e19f6a8b.jpg" alt="">
         </figure>
         <div class="info-product">
-            <button><a href="file:///C:/xampp/htdocs/Seller1/categorias/html/componentes.html">Componentes</a></button>
+            <button><a href="componentes.php">Componentes</a></button>
         </div>
     </div>
 
@@ -72,7 +72,7 @@
             <img src="../img/buso (1).jpg" alt="">
         </figure>
         <div class="info-product">
-            <button><a href="file:///C:/xampp/htdocs/Seller1/categorias/html/ropa.html">Ropa</a></button>
+            <button><a href="ropa.php">Ropa</a></button>
         </div>
     </div>  
     </div>

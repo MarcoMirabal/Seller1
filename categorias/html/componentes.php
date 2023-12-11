@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda</title>
-    <link rel="stylesheet" href="../css/categorias.css"
+    <link rel="stylesheet" href="../css/categorias.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -46,46 +46,32 @@
     </center>
 </div>
 
-   <div class="container-items">
-    <div class = "item">
-        <figure>
-            <img src="../img/57a0b0cd3e5acab2b0ebb5b5e19f6a8b.jpg" alt="">
-        </figure>
-        <div class="info-product">
-            <button>comprar</button>
-        </div>
-        <div>
-            <h1>
-                Minicomputador portatil
-            </h1>
-        </div>
-    </div>
+
+    <div class="container-items">
 
 
-    <div class = "item">
-        <figure>
-            <img src="../img/c403b67ad816330fbbbc7942c3cdae94.jpg" alt="">
-        </figure>
-        <div class="info-product">
-            <button>comprar</button>
-        </div>
-        <div>
-            <h1>
-                Teclado X
-            </h1>
-        </div>
-    </div>
-
-
-    <div class = "item">
-        <figure>
-            <img src="../img/5a25f8f169e4b3daad4d87e412fba764.jpg" alt="">
-        </figure>
-        <div class="info-product">
-            <button>comprar</button>
-        </div>
-    </div>  
-    </div>
+        <?php
+     
+     $base = "bd seller";
+     $Conexion = mysqli_connect("localhost", "root", "", $base);
+     
+     $cadena = "SELECT * FROM producto WHERE categorias = 'Componentes'" ;
+     
+     $consulta = mysqli_query($Conexion, $cadena);
+     while ($registro = mysqli_fetch_row($consulta)) {
+     echo '<form class = "item" action="../../TL/html/seleccion3.php?id='.$registro[8].'" method="post">
+     <figure>
+         <img src="data:image/jpeg;base64,' . base64_encode( $registro[0]) .'" alt="">
+     </figure>
+     <div class="info-product">
+         <button>comprar</button>
+     </div>
+     </form>';
+     }
+     ?>
+         
+     
+         </div>
 
 
 </body>
